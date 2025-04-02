@@ -20,7 +20,6 @@ package types
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/holiman/uint256"
 	"io"
 	"math/big"
 	"reflect"
@@ -30,10 +29,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/holiman/uint256"
 )
 
 var (
-	OldBlockMillisecondsInterval uint64 = 1000
+	OldBlockMillisecondsInterval uint64 = 2000
 	NewBlockMillisecondsInterval uint64 = 500
 )
 

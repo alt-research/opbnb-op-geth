@@ -18,17 +18,17 @@ package engine
 
 import (
 	"fmt"
-	"github.com/holiman/uint256"
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/trie"
+	"github.com/holiman/uint256"
 )
 
 var (
-	OldBlockMillisecondsInterval uint64 = 1000
+	OldBlockMillisecondsInterval uint64 = 2000
 	NewBlockMillisecondsInterval uint64 = 500
 )
 
