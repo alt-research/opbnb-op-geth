@@ -3,3 +3,22 @@
 build/_workspace
 build/_bin
 tests/testdata
+
+# Version control
+.git
+.gitignore
+.gitattributes
+.github
+.gitlab
+
+# Environment and secrets
+.env
+.env.*
+*.env
+secrets/
+credentials/
+config.local.json
+*.pem
+*.key
+*.cert
+*.crt
